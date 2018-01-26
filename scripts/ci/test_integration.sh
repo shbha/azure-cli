@@ -17,5 +17,6 @@ pip freeze
 echo '=== Begin testing'
 unset AZURE_CLI_DIAGNOSTICS_TELEMETRY
 azdev verify package $share_folder/build/
+azdev verify module-load-perf
 azdev verify commands
 azdev verify dependencies
